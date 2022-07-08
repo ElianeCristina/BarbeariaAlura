@@ -1,5 +1,39 @@
-body {
-    
+header{
+    background: gray;
+    padding: 20px 0;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 130px;
+    right: 142px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+}
+
+nav a{
+    display: inline;
+    margin-right: 19px;   
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #C78C19;
+    text-decoration: underline;
 }
 
 .titulo-principal {
@@ -7,7 +41,8 @@ body {
 }
 
 #banner{
-    width: 100%;
+    width: 95%;
+    margin: 5% 2% 5% 2%;
 }
 
 .principal{
@@ -49,4 +84,16 @@ ul{
 
 .benefImg{
     width:50%;
+}
+
+footer{
+    text-align: center;
+    background: url(../img/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
 }
